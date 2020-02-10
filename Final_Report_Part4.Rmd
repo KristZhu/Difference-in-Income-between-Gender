@@ -1,0 +1,45 @@
+---
+title: "Discussion"
+output: html_document
+---
+## 4. Discussion
+
+--------------
+
+### Main Conclusions:
+
+Acoording to the analysis in the previous parts, in general, male's income is higher than female's income. There are some **common** variables that have great importance to the income disparity between male and female in year 1990, 2000 and 2012.
+
++ Race: for people in **Other** race, the income difference between male and female inreases to difference extends in each survy year. Though unwilling to admit, the effect of race on income inequality still can not be ignored.
+
++ Family Size: this variable is significant in year 2000 and 2012. The bigger family size people have, the larger the income disparity between male and female. And the impact of family size is being more significant as year goes by.
+
+However, there are other different variables responsable for the income disparity between male and female in each year, which makes much sense because the time interval between each survy year is big and it's pretty normal that some variables become more important to the income disparity while others become less important as time goes by.
+
+* 1990:
+
++ "Wife with family has no time for other employment?": for the respondents who answered "Strongly Disagree" and "Disagree", the income disparity between male and female decreased. The reason may be that people especially women who disagree with this question in general had greater ambitions for their career, leading to the income difference shrink.
+
+
+* 2000:
+
++ Marital Status: in year 2000, For married male and female, the difference of income between them increased. The reason may be that married female are more likely to be stay at home to take care of their families than male, thus increase the income disparity.
+
+
+* 2012:
+
++ Industry: in year 2012, the income disparity may incrase in some industries. For example, in Professional and Technical and Information industries, the income difference between male and female all increased.
+
+
+### Limitations
+
++ In part 3, multiple models are included to try to achieve a more comprehensive analysis. However, in **Model 1** which did the linear regression seperatly for male and female, it is difficult to decide whether the difference of coefficient between male and female is significant. Therefore, the result is not very convincing. However, the **interation term model** to some extends remedies the situation.
+
++ Also, the result of logistic model in the report is not significant, thus lacking of persuasion.
+
++ Due to the time limitation, research on how the factors impact the income changed in each survy year is not deep enough.
+
+
+### Evaluation
+
+In general, the conclusions above make sense. However, the `R_squared` value in our models is not very high and there may be some other missing variables significantly contribute to the income disparity between male and female. Therefore, we believe that our conclusions have some value, but more analysis is needed before we are confident enough to present our findings to policy makers.
